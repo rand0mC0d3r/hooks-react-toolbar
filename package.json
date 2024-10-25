@@ -1,0 +1,43 @@
+{
+  "name": "hooks-react-toolbar",
+  "version": "1.0.0",
+  "description": "A headless hook based on ContextAPI React toolbar store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run watch.component --silent",
+    "build": "concurrently \"tsc\" \"tsc --module commonjs --outDir lib/cjs\"",
+    "build.esm": "tsc"
+  },
+  "keywords": [
+    "toolbar",
+    "contextAPI",
+    "reactjs"
+  ],
+  "dependencies": {
+    "tss-react": "^4.5.0"
+  },
+  "devDependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0",
+    "concurrently": "^7.6.0",
+    "@types/react": "17.0.52",
+    "@types/react-dom": "17.0.18",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-import-resolver-webpack": "^0.13.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-mui-unused-classes": "^1.0.3",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "nodemon": "^2.0.22",
+    "terser-folder": "^2.0.0",
+    "typescript": "^4.9.4"
+  },
+  "author": "",
+  "license": "MIT"
+}
