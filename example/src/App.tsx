@@ -1,6 +1,6 @@
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { ToolbarItem, ToolbarRenderer } from '../../src/';
+import { ToolbarItem, ToolbarRenderer } from 'hooks-react-toolbar';
 import './App.css';
 
 

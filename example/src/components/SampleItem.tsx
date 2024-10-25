@@ -1,4 +1,4 @@
-import { IToolbar } from '../../../src/index.types';
+import { IToolbar } from 'hooks-react-toolbar';
 
 export function SampleItem({
   item

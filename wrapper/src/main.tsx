@@ -1,5 +1,5 @@
 import { createRoot } from 'react-dom/client';
-import { ToolbarProvider } from '../../src/';
+import { ToolbarProvider } from 'hooks-react-toolbar';
 import App from './App';
 import { OtherSampleItem } from './components/OtherSampleItem';
 import { SampleItem } from './components/SampleItem';
