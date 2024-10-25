@@ -8,7 +8,7 @@
     "start": "npm run watch.component --silent",
     "build": "concurrently \"tsc\" \"tsc --module commonjs --outDir lib/cjs\"",
     "build.esm": "tsc",
-    "publish": "npm version patch && git push && git push --tags && npm publish"
+    "release": "npm version patch && git push && git push --tags && npm publish"
   },
   "keywords": [
     "toolbar",
