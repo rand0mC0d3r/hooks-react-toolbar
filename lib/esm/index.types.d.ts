@@ -5,7 +5,9 @@ export interface ToolbarContextProps {
     addItem: any;
     updateItem: any;
     slots: {
-        toolbarItem: JSX.Element;
+        toolbarItem: any;
+        toolbarWrapper: any;
+        isEmbedded: boolean;
     };
 }
 export interface IToolbar {

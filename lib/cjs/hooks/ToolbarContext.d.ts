@@ -1,2 +1,4 @@
 /// <reference types="react" />
-export declare const ToolbarContext: import("react").Context<{}>;
+import { ToolbarContextProps } from '../index.types';
+export declare const ToolbarContext: import("react").Context<undefined>;
+export declare function useToolbar(): ToolbarContextProps;

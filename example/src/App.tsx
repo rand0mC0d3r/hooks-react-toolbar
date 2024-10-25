@@ -16,6 +16,8 @@ export default function AppWrapper() {
 
       <div style={{ flex: '1 1 auto', border: '1px solid pink'}}>
         Current Path: {currentPath}
+
+        Open embedded view <a href="http://localhost:5174">here</a>
       </div>
     </div>
   </>

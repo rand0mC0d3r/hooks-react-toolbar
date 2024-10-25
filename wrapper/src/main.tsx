@@ -8,10 +8,10 @@ import './index.css';
 
 createRoot(document.getElementById('root')!).render(
   <ToolbarProvider slots={{
-    toolbarItem: window.location.pathname === '/nestedEmbed' ? <OtherSampleItem /> : <SampleItem />,
-    toolbarWrapper: <SampleItems />,
-    isEmbedded: window.location.pathname === '/nestedEmbed',
+    toolbarItem: <div />,
+    toolbarWrapper: <div />,
+    isEmbedded: false,
   }}>
-      <App />
+    <App />
   </ToolbarProvider>
 );
