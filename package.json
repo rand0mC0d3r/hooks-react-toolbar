@@ -1,6 +1,6 @@
 {
   "name": "hooks-react-toolbar",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A headless hook based on ContextAPI React toolbar store",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
