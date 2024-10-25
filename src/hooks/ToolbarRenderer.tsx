@@ -1,12 +1,12 @@
+import { cloneElement, Fragment } from 'react';
 import { useToolbar } from './ToolbarCustomHook';
 
 export function ToolbarRenderer() {
-  const { items } = useToolbar();
+  const { items, slots } = useToolbar();
 
-  return <div id='toolbar'>
-    toolbar {items.length}
-    {items.map((item: any) => (
-      <div key={item.id}>{item.id} {item.icon}</div>
-    ))}
+  return <div id='toolbar' style={{ display: 'flex' }}>
+    {items.map((item: any) => <Fragment key={item.id}>
+      {cloneElement(slots.toolbarItem, { item })}
+    </Fragment>)}
   </div>
 }

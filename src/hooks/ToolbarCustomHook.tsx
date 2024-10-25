@@ -1,17 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { useContext } from 'react';
+import { ToolbarContextProps } from '../types';
 import { ToolbarContext } from './ToolbarContext';
-
-export interface ToolbarContextProps {
-  items: any
-  setItems: any,
-  addItem: any,
-  updateItem: any,
-}
-
-export interface IToolbar {
-  id: string
-}
 
 export function useToolbar() {
   const context = useContext(ToolbarContext);

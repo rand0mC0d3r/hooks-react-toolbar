@@ -39,6 +39,7 @@ function App() {
 export default function AppWrapper() {
   return <>
     <ToolbarItem id="logo" icon={<FontAwesomeIcon icon={faEnvelope} />} />
+    <ToolbarItem id="anotherlogo" icon={<FontAwesomeIcon icon={faEnvelope} />} />
     <ToolbarRenderer />
     <App />
   </>

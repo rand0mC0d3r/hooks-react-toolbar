@@ -1,8 +1,15 @@
 import { useEffect, useState } from 'react';
+import { IToolbar } from '../types';
 import { ToolbarContext } from './ToolbarContext';
 
-export function ToolbarProvider({ children } : { children: any }) {
-  const [ items, setItems ] = useState<any[]>([]);
+export function ToolbarProvider({
+  children,
+  slots
+} : {
+  children: any,
+  slots: { }
+}) {
+  const [ items, setItems ] = useState<IToolbar[]>([]);
 
   const addItem = (item: any) => {
     setItems((prevItems) => [...prevItems, item]);
@@ -24,6 +31,7 @@ export function ToolbarProvider({ children } : { children: any }) {
     setItems,
     addItem,
     updateItem,
+    slots,
   };
 
 

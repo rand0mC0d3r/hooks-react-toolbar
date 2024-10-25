@@ -1,5 +1,6 @@
 import { ToolbarContext } from './hooks/ToolbarContext';
-import { useToolbar } from './hooks/ToolbarCustomHook';
+import { IToolbar, ToolbarContextProps, useToolbar } from './hooks/ToolbarCustomHook';
 import { ToolbarItem } from './hooks/ToolbarItem';
 import { ToolbarProvider } from './hooks/ToolbarProvider';
-export { ToolbarContext, ToolbarProvider, useToolbar, ToolbarItem, };
+import { ToolbarRenderer } from './hooks/ToolbarRenderer';
+export { ToolbarContext, ToolbarProvider, useToolbar, ToolbarItem, ToolbarRenderer, IToolbar, ToolbarContextProps };
