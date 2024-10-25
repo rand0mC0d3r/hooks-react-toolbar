@@ -1,2 +1,2 @@
-import { ToolbarContextProps } from '../types';
+import { ToolbarContextProps } from '../index.types';
 export declare function useToolbar(): ToolbarContextProps;

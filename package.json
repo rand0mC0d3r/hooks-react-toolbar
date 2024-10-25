@@ -2,10 +2,13 @@
   "name": "hooks-react-toolbar",
   "version": "1.0.5",
   "description": "A headless hook based on ContextAPI React toolbar store",
-  "main": "index.js",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run watch.component --silent",
+    "prebuild": "rm -rf ./lib && mkdir -p lib",
     "build": "concurrently \"tsc\" \"tsc --module commonjs --outDir lib/cjs\"",
     "build.esm": "tsc",
     "release": "npm version patch && git push && git push --tags && npm publish"

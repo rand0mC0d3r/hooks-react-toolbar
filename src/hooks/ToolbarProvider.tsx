@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { IToolbar } from '../types';
+import { IToolbar } from '../index.types';
 import { ToolbarContext } from './ToolbarContext';
 
 export function ToolbarProvider({

@@ -1,4 +1,4 @@
-import { IToolbar } from '../../../src/types';
+import { IToolbar } from '../../../src/index.types';
 
 export function SampleItem({
   item

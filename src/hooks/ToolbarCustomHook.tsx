@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { useContext } from 'react';
-import { ToolbarContextProps } from '../types';
+import { ToolbarContextProps } from '../index.types';
 import { ToolbarContext } from './ToolbarContext';
 
 export function useToolbar() {
