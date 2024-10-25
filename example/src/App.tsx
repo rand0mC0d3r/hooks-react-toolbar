@@ -1,7 +1,7 @@
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useState } from 'react';
-import { ToolbarItem, ToolbarProvider, ToolbarRenderer, useToolbar } from '../../../src/';
+import { ToolbarItem, ToolbarProvider, ToolbarRenderer, useToolbar } from '../../src/';
 import './App.css';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
