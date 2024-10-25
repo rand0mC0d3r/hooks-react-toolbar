@@ -1,6 +1,6 @@
 {
   "name": "hooks-react-toolbar",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A headless hook based on ContextAPI React toolbar store",
   "main": "index.js",
   "scripts": {
