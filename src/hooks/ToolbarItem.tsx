@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { useToolbar } from './ToolbarCustomHook';
+import { useToolbar } from './ToolbarContext';
 
 export function ToolbarItem({
   id,

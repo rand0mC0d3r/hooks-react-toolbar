@@ -6,7 +6,7 @@ export function ToolbarProvider({
   children,
   slots
 } : {
-  children: any,
+  children: JSX.Element | React.ReactNode,
   slots: { }
 }) {
   const [ items, setItems ] = useState<IToolbar[]>([]);
@@ -32,7 +32,7 @@ export function ToolbarProvider({
     addItem,
     updateItem,
     slots,
-  };
+  } as any
 
 
   return <ToolbarContext.Provider {...{ value }}>{children}</ToolbarContext.Provider>;
