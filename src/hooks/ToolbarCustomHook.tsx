@@ -4,7 +4,9 @@ import { ToolbarContext } from './ToolbarContext';
 
 export interface ToolbarContextProps {
   items: any
-  setItems: any
+  setItems: any,
+  addItem: any,
+  updateItem: any,
 }
 
 export interface IToolbar {
